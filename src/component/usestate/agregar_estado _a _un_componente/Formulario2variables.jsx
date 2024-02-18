@@ -15,11 +15,13 @@ Se puede declarar más de una variable de estado en el mismo componente. Cada va
             value={name}
             onChange={e => setName(e.target.value)} />
 
-            <button onClick={() = setAge(age + 1)}
-            Incrementar edad>
+            <button onClick={() => setAge(age + 1)}>
+
+            Incrementar edad
 
             </button>
-            <p>Hola, {name}. TIEMEE</p>
+
+            <p>hola {name}. Tienes {age} años.</p>
         </>
 
     );

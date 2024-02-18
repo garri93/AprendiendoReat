@@ -6,6 +6,9 @@ import Contador from './component/usestate/agregar_estado _a _un_componente/Cont
 import reportWebVitals from './reportWebVitals';
 import CampoTexto from './component/usestate/agregar_estado _a _un_componente/CampoTexto';
 import Checkbox from './component/usestate/agregar_estado _a _un_componente/Checkbox';
+import Formulario2variables from './component/usestate/agregar_estado _a _un_componente/Formulario2variables';
+import ActulizacionStado from './component/usestate/agregar_estado _a _un_componente/ActulizacionStado';
+import Calculadora from './component/pruebas/Calculadora';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +16,9 @@ root.render(
     <Contador />
     <CampoTexto />
     <Checkbox />
+    <Formulario2variables />
+    <ActulizacionStado />
+    <Calculadora />
   </React.StrictMode>
 );
 
